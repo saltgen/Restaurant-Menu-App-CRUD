@@ -53,11 +53,11 @@ While the app is successfully running respective JSON data can be viewed at the 
 
 #### JSON APIs to view Restaurant Menu details
 
-**/restaurant/<int:restaurant_id>/menu/json**
+*/restaurant/<int:restaurant_id>/menu/json*
 
 #### JSON APIs to view Menu item details
 
-**/restaurant/<int:restaurant_id>/menu/<int:menu_id>/json**
+*/restaurant/<int:restaurant_id>/menu/<int:menu_id>/json*
 
 ## Acknowledgments
 
