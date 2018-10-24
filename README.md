@@ -1,16 +1,16 @@
 # Restaurant Menu App - CRUD
 
--This is a Flask project that I have created with the help of Udacity course curriculum to learn and demonstrate CRUD functionality along with OAuth authentication and authorization
+* This is a Flask project that I have created with the help of Udacity course curriculum to learn and demonstrate CRUD functionality along with OAuth authentication and authorization
 
 ### Prerequisites
 
--Web Browser
+* Web Browser
 
--Network Connection/Internet
+* Network Connection/Internet
 
--Google+ Account
+* Google+ Account
 
--Full Stack Vagrant VM, from the Terminal, run: git clone https://github.com/udacity/OAuth2.0 oauth
+* Full Stack Vagrant VM, from the Terminal, run: git clone https://github.com/udacity/OAuth2.0 oauth
 
 ## Run the virtual machine
 
@@ -43,27 +43,19 @@ This is to ensure that you are inside the directory that contains project.py, da
 
 ## Running the Restaurant Menu App
 
-1. In the terminal type python database_setup.py
-
-This needs to be done to create the sqlite database, locally
-
-1. Type python lotsofmenus.py
-
-This needs to be done to populate the created database
-
-1. Type python app.py
-
-The app should be up now, please visit http://localhost:5000 on your preferred browser
+1. In the terminal type python database_setup.py, to create the sqlite database, locally
+1. Type python lotsofmenus.py, to populate the created database
+1. Type python app.py, please visit http://localhost:5000 on your preferred browser
 
 ## API Endpoints
 
 While the app is successfully running respective JSON data can be viewed at the below endpoints
 
-# JSON APIs to view Restaurant Menu details
+#### JSON APIs to view Restaurant Menu details
 
 **/restaurant/<int:restaurant_id>/menu/json**
 
-# JSON APIs to view Menu item details
+#### JSON APIs to view Menu item details
 
 **/restaurant/<int:restaurant_id>/menu/<int:menu_id>/json**
 
