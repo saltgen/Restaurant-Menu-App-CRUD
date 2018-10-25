@@ -14,20 +14,20 @@
 			<form action="#" method = "post">
 				<div class="form-group">
 					<label for="name">Name:</label>
-					<input type ="text" maxlength="50" class="form-control" name="name"placeholder="Name of the course">
+					<input required type ="text" maxlength="50" class="form-control" name="name"placeholder="Name of the course">
 
 					<label for="description">Description:</label>
-					<textarea class="form-control" maxlength="250" rows="3" name="description" placeholder="Description of the course"></textarea>
+					<textarea required class="form-control" maxlength="250" rows="3" name="description" placeholder="Description of the course"></textarea>
 
 					<label for="price">Price:</label>
 					<div class="input-group">
 						<div class="input-group-addon">$</div>
-						<input type ="text" class="form-control" maxlength="10" name="price" placeholder="Price in $">
+						<input required type ="text" class="form-control" maxlength="10" name="price" placeholder="Price in $">
 					</div>
 					<label for="course">Course:</label>
 					<div class="radio">
 					  <label>
-					    <input type="radio" name="course" id="course1" value="Appetizer">Appetizer
+					    <input required type="radio" name="course" id="course1" value="Appetizer">Appetizer
 					  </label>
 					</div>
 					<div class="radio">
@@ -52,4 +52,3 @@
 		</div>
 	</div>
 {% endblock %}
-
