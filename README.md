@@ -1,4 +1,4 @@
-# Restaurant Menu App - CRUD
+#  Project: Restaurant Menu App - CRUD
 
 * This is a Flask project that I have created with the help of Udacity course curriculum to learn and demonstrate CRUD functionality along with OAuth authentication and authorization
 
